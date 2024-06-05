@@ -1,0 +1,142 @@
+.wrapper-projects-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer {
+    overflow-y: hidden;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.inner {
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+.background-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+/*.projects-container {*/
+/*    scroll-snap-type: y mandatory;*/
+/*    overflow-y: scroll;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.background-card {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    padding: 40px;*/
+/*    border-radius: 1rem;*/
+/*    margin: 0 24px;*/
+/*    height: 100vh;*/
+/*    width: 80vw;*/
+/*    scroll-snap-align: start;*/
+/*}*/
+
+.project-1 {
+    background-color: #9ABAB350;
+}
+
+.project-2 {
+    background-color: #ffc2c2;
+}
+
+.project-3 {
+    background-color: #f8dbc0;
+}
+
+.content-project-display-left {
+    width: 578px;
+}
+
+.project-title {
+    font-size: 64px;
+    color: #292929;
+}
+
+.project-description {
+    color: #1a1a1a;
+}
+
+.wrapper-tech-items {
+    display: flex;
+    gap: 12px;
+    margin: 32px 0;
+}
+
+.tech-item {
+    background-color: #9ABAB3;
+    padding: 6px 10px;
+    border-radius: 2px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-project-buttons {
+    display: flex;
+    gap: 22px;
+}
+
+.btn-visit-site {
+    background-color: #424242;
+    color: white;
+    border: #424242 solid 2px;
+}
+
+.btn-github-link {
+    border: #424242 solid 2px;
+    background-color: transparent;
+    color: #292929;
+    transition-delay: 3s;
+}
+
+.btn-visit-site, .btn-github-link {
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 22px;
+}
+
+.image-project-display {
+    width: 615px;
+    height: 385px;
+    border-radius: 12px;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.tech-item-2 {
+    transition-delay: 500ms;
+}
+
+.tech-item-3{
+    transition-delay: 1s;
+}
+
+.tech-item-4 {
+    transition-delay: 1.5s;
+}
