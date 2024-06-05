@@ -48,6 +48,11 @@ body, html {
     margin: 22px 42px;
 }
 
+.location {
+    font-size: 16px;
+}
+
+
 .day-night-switch {
     position: relative;
     display: inline-block;
