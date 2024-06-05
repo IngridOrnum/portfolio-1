@@ -51,10 +51,10 @@ class Carousel {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const galleryContainer = document.querySelector('.gallery-container');
+    const galleryContainer = document.querySelectorAll('.gallery-container');
     const galleryItems = document.querySelectorAll('.gallery-item');
-    const prevButton = document.querySelector('.arrow-prev');
-    const nextButton = document.querySelector('.arrow-next');
+    const prevButton = document.querySelectorAll('.arrow-prev');
+    const nextButton = document.querySelectorAll('.arrow-next');
 
     new Carousel(galleryContainer, galleryItems, prevButton, nextButton);
 });
