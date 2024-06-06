@@ -30,8 +30,6 @@ body, html {
     font-weight: 600;
 }
 
-
-
 /* SECTION 1 - LOGO AND TOGGLE BTN*/
 
 .wrapper-logo-toggle-btn {
@@ -48,10 +46,22 @@ body, html {
     margin: 22px 42px;
 }
 
-.location {
-    font-size: 16px;
+.logo-and-location {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 
+.location {
+    font-size: 15px;
+    margin-left: 6px;
+}
+
+.line-divider-sm {
+    height: 20px;
+    width: 1px;
+    background-color: #292929;
+}
 
 .day-night-switch {
     position: relative;
