@@ -28,34 +28,16 @@
     width: 100vw;
 }
 
-
-/*.projects-container {*/
-/*    scroll-snap-type: y mandatory;*/
-/*    overflow-y: scroll;*/
-/*    height: 100vh;*/
-/*}*/
-
-/*.background-card {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    padding: 40px;*/
-/*    border-radius: 1rem;*/
-/*    margin: 0 24px;*/
-/*    height: 100vh;*/
-/*    width: 80vw;*/
-/*    scroll-snap-align: start;*/
-/*}*/
-
 .project-1 {
     background-color: #9ABAB350;
 }
 
 .project-2 {
-    background-color: #ffc2c2;
+    background-color: #C6BEFF80;
 }
 
 .project-3 {
-    background-color: #f8dbc0;
+    background-color: #5E2D2020;
 }
 
 .content-project-display-left {
@@ -108,6 +90,7 @@
     border-radius: 4px;
     padding: 12px 24px;
     font-size: 22px;
+    cursor: pointer;
 }
 
 .gallery {
