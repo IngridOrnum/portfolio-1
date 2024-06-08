@@ -75,15 +75,25 @@
 
 .btn-visit-site {
     background-color: #424242;
-    color: white;
+    color: #FBF6F6;
     border: #424242 solid 2px;
+}
+
+.btn-visit-site:hover {
+    background-color: #FBF6F6;
+    color: #424242;
 }
 
 .btn-github-link {
     border: #424242 solid 2px;
-    background-color: transparent;
+    background-color: #FBF6F6;
     color: #292929;
     transition-delay: 3s;
+}
+
+.btn-github-link:hover {
+    background-color: #424242;
+    color: #FBF6F6;
 }
 
 .btn-visit-site, .btn-github-link {
@@ -193,4 +203,22 @@
 
 .tech-item-4 {
     transition-delay: 1.5s;
+}
+
+.arrow-prev, .arrow-next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+    height: 40px;
+    width: 40px;
+    border: 1.5px solid #1a1a1a;
+    background-color: #FBF6F6;
+    cursor: pointer;
+    transition: 1.5s ease-in-out;
+}
+
+.arrow-prev:hover, .arrow-next:hover {
+    background-color: #292929;
+    color: #FBF6F6;
 }

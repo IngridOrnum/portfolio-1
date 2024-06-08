@@ -73,6 +73,15 @@ const hero = document.querySelector('.hero');
 const logoAndLocation = document.querySelector('.logo-and-location');
 const lineDivider = document.querySelector('.line-divider');
 const lineDividerSm = document.querySelector('.line-divider-sm');
+const project1Bg = document.querySelector('.project-1');
+const project2Bg = document.querySelector('.project-2');
+const project3Bg = document.querySelector('.project-3');
+const projectTitle1 = document.querySelector('.project-title-1');
+const projectTitle2 = document.querySelector('.project-title-2');
+const projectTitle3 = document.querySelector('.project-title-3');
+const projectDescription1 = document.querySelector('.project-description-1');
+const projectDescription2 = document.querySelector('.project-description-2');
+const projectDescription3 = document.querySelector('.project-description-3');
 
 let isNightMode = false;
 
@@ -90,9 +99,19 @@ bgSwitch.addEventListener('change', function () {
     `;
         grainContainer.style.backgroundColor = 'hsla(341,37%,39%,1)';
         hero.style.color = '#b8acff';
-        logoAndLocation.style.color = '#b8acff';
+        logoAndLocation.style.color = '#FBF6F6';
         lineDivider.style.backgroundColor = '#b8acff';
-        lineDividerSm.style.backgroundColor = '#b8acff';
+        lineDividerSm.style.backgroundColor = '#FBF6F6';
+        project1Bg.style.backgroundColor = '#0c332a';
+        project2Bg.style.backgroundColor = '#0e0b26';
+        project3Bg.style.backgroundColor = '#170805';
+        projectTitle1.style.color = '#FBF6F6';
+        projectTitle2.style.color = '#FBF6F6';
+        projectTitle3.style.color = '#FBF6F6';
+        projectDescription1.style.color = '#FBF6F6';
+        projectDescription2.style.color = '#FBF6F6';
+        projectDescription3.style.color = '#FBF6F6';
+
         isNightMode = true;
     } else {
         grainContainer.style.backgroundImage = '';
@@ -101,6 +120,16 @@ bgSwitch.addEventListener('change', function () {
         logoAndLocation.style.color = '';
         lineDivider.style.backgroundColor = '';
         lineDividerSm.style.backgroundColor = '';
+        project1Bg.style.backgroundColor = '';
+        project2Bg.style.backgroundColor = '';
+        project3Bg.style.backgroundColor = '';
+        projectTitle1.style.color = '';
+        projectTitle2.style.color = '';
+        projectTitle3.style.color = '';
+        projectDescription1.style.color = '';
+        projectDescription2.style.color = '';
+        projectDescription3.style.color = '';
+
         isNightMode = false;
     }
 })
