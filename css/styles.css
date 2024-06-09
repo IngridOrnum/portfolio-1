@@ -30,8 +30,6 @@ body, html {
     font-weight: 600;
 }
 
-/* SECTION 1 - LOGO AND TOGGLE BTN*/
-
 .grain-container {
     width: 100%;
     height: 100%;
@@ -73,6 +71,7 @@ pointer-events: auto;
     display: flex;
     gap: 1rem;
     align-items: center;
+    color: #292929;
 }
 
 .location {
@@ -172,9 +171,6 @@ input:checked + .slider .fa-moon {
     opacity: 0;
 }
 
-
-/* SECTION 2 - HERO */
-
 .wrapper-hero {
     position: absolute;
     height: 100vh;
@@ -191,6 +187,7 @@ input:checked + .slider .fa-moon {
     flex-direction: column;
     margin-bottom: 100px;
     align-items: center;
+    color: #f5f5dc;
 }
 
 .hero-heading {
@@ -212,7 +209,7 @@ input:checked + .slider .fa-moon {
 .line-divider {
     width: 2px;
     height: 30px;
-    background-color: #292929;
+    background-color: #f5f5dc;
 }
 
 .sm-arrow-text-hero {
