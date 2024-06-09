@@ -12,7 +12,6 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
-
 class Carousel {
     constructor(container, items, prevButton, nextButton) {
         this.container = container;
