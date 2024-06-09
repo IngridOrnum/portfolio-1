@@ -8,47 +8,50 @@
     <link href="css/projects-section.css" rel="stylesheet">
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/eaf3f254a9.js"></script>
     <script defer src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/grained@0.0.2/grained.min.js"></script>
 </head>
 <body>
-    
     <div class="outer">
         <div class="container">
-            <div class="inner">
-                <section class="wrapper-hero">
-                    <div class="wrapper-logo-toggle-btn">
-                        <div class="logo-toggle-btn">
-                            <div class="logo-and-location">
-                                <span class="poppins semi-bold">INGRID ORNUM</span>
-                                <div class="line-divider-sm"></div>
-                                <div>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <span class="poppins ex-light location">Oslo, Norway</span>
-                                </div>
-                            </div>
-                            <label class="day-night-switch">
-                                <input checked type="checkbox">
-                                <span class="slider">
+            <div class="wrapper-logo-toggle-btn">
+                <div class="logo-toggle-btn">
+                    <div class="logo-and-location">
+                        <span class="poppins semi-bold">INGRID ORNUM</span>
+                        <div class="line-divider-sm"></div>
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="poppins ex-light location">Oslo, Norway</span>
+                        </div>
+                    </div>
+                    <label class="day-night-switch">
+                        <input checked type="checkbox">
+                        <span class="slider">
                                     <i class="fa-solid fa-sun"></i>
                                     <i class="fa-solid fa-moon"></i>
                                 </span>
-                            </label>
+                    </label>
+                </div>
+            </div>
+            <div class="inner">
+                <div class="grain-container" id="grain">
+                    <section class="wrapper-hero">
+                        <div class="hero">
+                            <div class="poppins hero-heading semi-bold">WELCOME TO MY PORTFOLIO</div>
+                            <div class="hero-details">
+                                <span class="poppins light">Front-End Developer</span>
+                                <span class="line-divider"></span>
+                                <span class="poppins light">Ingrid Ornum</span>
+                            </div>
+                            <div class="poppins sm-arrow-text-hero">Scroll to see my work ↓</div>
                         </div>
-                    </div>
-                    <div class="hero">
-                        <div class="poppins hero-heading semi-bold">WELCOME TO MY PORTFOLIO</div>
-                        <div class="hero-details">
-                            <span class="poppins light">Front-End Developer</span>
-                            <span class="line-divider"></span>
-                            <span class="poppins light">Ingrid Ornum</span>
-                        </div>
-                    </div>
-                </section>
+                    </section>
+                </div>
             </div>
             <div class="inner project-1 background-card">
                 <div class="content-project-display-left">
                     <div class="hidden">
-                        <div class="project-title poppins semi-bold">NORDIC TREKKING</div>
-                        <p class="project-description poppins ex-light">
+                        <div class="project-title project-title-1 poppins semi-bold">NORDIC TREKKING</div>
+                        <p class="project-description project-description-1 poppins ex-light">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et
                             dolore magna aliqua. Pretium vulputate sapien nec sagittis. Adipiscing elit ut aliquam purus
@@ -78,23 +81,23 @@
                 <div class="gallery" data-carousel="1">
                     <div class="gallery-container">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-1"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/nordic-trekking/nt-login.png">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-2"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/nordic-trekking/nt-edit-posts.png">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-3"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/nordic-trekking/nordic-trekking-desktop.jpg">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-4"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/nordic-trekking/nt-single-post.png">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-5"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/nordic-trekking/nt-blog-archive.png">
                     </div>
                     <div class="gallery-pagination">
                         <div class="pagination-arrows">
                             <button class="arrow-prev" data-carousel-btn-id="1" data-carousel-button="prev">
-                                <i class="fa-solid fa-arrow-left"></i>
+                                <i class="fa-solid fa-arrow-left fa-lg"></i>
                             </button>
                             <button class="arrow-next" data-carousel-btn-id="1" data-carousel-button="next">
-                                <i class="fa-solid fa-arrow-right"></i>
+                                <i class="fa-solid fa-arrow-right fa-lg"></i>
                             </button>
                         </div>
                     </div>
@@ -103,8 +106,8 @@
             <div class="inner project-2 background-card">
                 <div class="content-project-display-left">
                     <div class="hidden">
-                        <div class="project-title poppins semi-bold">COMMUNITY SCIENCE MUSEUM</div>
-                        <p class="project-description poppins ex-light">
+                        <div class="project-title project-title-2 poppins semi-bold">COMMUNITY SCIENCE MUSEUM</div>
+                        <p class="project-description project-description-2 poppins ex-light">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut
                             labore et
@@ -125,11 +128,11 @@
                         <div class="tech-item tech-item-4 poppins light hidden">Figma</div>
                     </div>
                     <div class="wrapper-project-buttons">
-                        <form action="https://project-exam-1-blog.vercel.app/user/index.html">
+                        <form action="https://semester-project-2023.vercel.app/">
                             <button class=" hidden btn-visit-site poppins light" formtarget="_blank">Visit Site
                             </button>
                         </form>
-                        <form action="https://github.com/IngridOrnum/project-exam-1-blog">
+                        <form action="https://github.com/IngridOrnum/semester-project-2023">
                             <button class=" hidden btn-github-link poppins light" formtarget="_blank">GitHub Repo
                             </button>
                         </form>
@@ -138,23 +141,23 @@
                 <div class="gallery" data-carousel="2">
                     <div class="gallery-container">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-1"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/csm/csm-about.png">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-2"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/csm/csm-exhibitions.png">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-3"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/csm/csm-homepage.png">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-4"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/csm/csm-events.png">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-5"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/csm/csm-plan-visit.png">
                     </div>
                     <div class="gallery-pagination">
                         <div class="pagination-arrows">
                             <button class="arrow-prev" data-carousel-btn-id="2" data-carousel-button="prev">
-                                <i class="fa-solid fa-arrow-left"></i>
+                                <i class="fa-solid fa-arrow-left fa-lg"></i>
                             </button>
                             <button class="arrow-next" data-carousel-btn-id="2" data-carousel-button="next">
-                                <i class="fa-solid fa-arrow-right"></i>
+                                <i class="fa-solid fa-arrow-right fa-lg"></i>
                             </button>
                         </div>
                     </div>
@@ -163,8 +166,8 @@
             <div class="inner project-3 background-card">
                 <div class="content-project-display-left">
                     <div class="hidden">
-                        <div class="project-title poppins semi-bold">SQUARE EYES</div>
-                        <p class="project-description poppins ex-light">
+                        <div class="project-title project-title-3 poppins semi-bold">SQUARE EYES</div>
+                        <p class="project-description project-description-3 poppins ex-light">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             incididunt ut
                             labore et
@@ -185,11 +188,11 @@
                         <div class="tech-item tech-item-4 poppins light hidden">Figma</div>
                     </div>
                     <div class="wrapper-project-buttons">
-                        <form action="https://project-exam-1-blog.vercel.app/user/index.html">
+                        <form action="https://js-ca-spring-ingrid-ornum.vercel.app/">
                             <button class=" hidden btn-visit-site poppins light" formtarget="_blank">Visit Site
                             </button>
                         </form>
-                        <form action="https://github.com/IngridOrnum/project-exam-1-blog">
+                        <form action="https://github.com/IngridOrnum/js-ca-spring-ingrid-ornum">
                             <button class=" hidden btn-github-link poppins light" formtarget="_blank">GitHub Repo
                             </button>
                         </form>
@@ -198,23 +201,23 @@
                 <div class="gallery" data-carousel="3">
                     <div class="gallery-container">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-1"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/square-eyes/square-eyes-checkout.png">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-2"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/square-eyes/square-eyes-homepage-movie-display.png">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-3"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/square-eyes/square-eyes-homepage.png">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-4"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/square-eyes/square-eyes-movie-page.png">
                         <img alt="desktop frontpage of Nordic Trekking" class="gallery-item gallery-item-5"
-                             src="assets/nordic-trekking-desktop.jpg">
+                             src="assets/square-eyes/square-eyes-cart.png">
                     </div>
                     <div class="gallery-pagination">
                         <div class="pagination-arrows">
                             <button class="arrow-prev" data-carousel-btn-id="3" data-carousel-button="prev">
-                                <i class="fa-solid fa-arrow-left"></i>
+                                <i class="fa-solid fa-arrow-left fa-lg"></i>
                             </button>
                             <button class="arrow-next" data-carousel-btn-id="3" data-carousel-button="next">
-                                <i class="fa-solid fa-arrow-right"></i>
+                                <i class="fa-solid fa-arrow-right fa-lg"></i>
                             </button>
                         </div>
                     </div>
