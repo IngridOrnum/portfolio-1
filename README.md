@@ -40,7 +40,6 @@ The assignment for the FED1 Project Exam 1 was to design, build, and test a resp
 #### Tools and technology
 * Figma: For designing wireframes and high-fidelity assets.
 * Sourcetree: Git version control was managed using Sourcetree.
-* Webp Converter: I downloaded and used this tool to compress images to under 200kb, from jpeg to webp.
 * FontAwesome: For incorporating icons into the interface.
 * Google Fonts: For typography and enhancing the visual appeal.
 * ChatGPT: Used for debugging and assistance during development.
@@ -67,7 +66,6 @@ This project is licensed under the MIT License.
 
 ### Installing
 The project is deployed on Vercel: [Open the project by clicking here.](https://semester-project-2023.vercel.app/) <br/>
-GitHub Repo: [Project Repo](https://github.com/IngridOrnum/semester-project-2023)
 
 ### Description
 This webpage serves as the online presence for the fictional "Community Science Museum". The project aims to engage visitors by promoting upcoming events and providing previews of current exhibitions. Users can find essential information such as the museum's location, opening hours, contact details, and admission fees. The website features playful colours designed to intrigue the target audience - children (7-15 yrs).
@@ -92,6 +90,8 @@ I had some difficulty deciding on design. I had many ideas regarding the design,
 
 I also had some trouble with the work process related to branches in SourceTree, because I by mistake merged some of the branches before being completely done with the issue. This resulted in what can look like a messy workflow. As a result of this I learned that I must make even more detailed issues on the GitHub board for each page.
 
+This project was the first time I tried JavaScript. It was not mandatory to use JS in this assignment, however I wanted to challenge myself and test it on a few elements on the page.
+
 ### Buildt With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
@@ -106,13 +106,31 @@ This project is licensed under the MIT License.
 *image*
 
 ### Installing
+My project is deployed on Vercel: [Click here to go to the project](https://js-ca-spring-ingrid-ornum.vercel.app/) <br/>
 
 ### Description
+Square Eyes is a fictional movie streaming website designed to engage users in exploring and purchasing movies. This API-driven application allows users to add movies to their watchlist or cart, view detailed movie information, and proceed to checkout where the total cost and selected movies are displayed. The available movies are sourced from an API provided by Noroff.
+
+This project represents my first assignment in JavaScript for the Front-end Development program at Noroff School of Technology and Digital Media.
+
 #### What was the assignment?
-#### How was the process?
+The assignment of the JS1 Course Assignment was for the students to apply their JavaScript skills to develop an interactive online store that interfaces with a provided API to display products and manage a shopping basket. Required pages was: homepage, product page, checkout page and confirmation page. I also added watchlist page which wasn't required.
+
+The website had to allow users to view products, filter and add items to a basket. There also and check out. The project should utilize one of three given API endpoints for product data.
+
 #### Tools and technology
+* Figma: For designing wireframes and high-fidelity assets.
+* Sourcetree: Git version control was managed using Sourcetree.
+* FontAwesome: For incorporating icons into the interface.
+* Google Fonts: For typography and enhancing the visual appeal.
+* ChatGPT: Used for debugging and assistance during development.
+* Flaticon: Some icons used on the page is from Flaticon.
+* Notion: I used Notion, a web application for taking notes.
 
 #### Challenges and learning points
+I found it challenging handeling the images so that they were visuably pleasing when seen in larger formats. I could've changed the design, so that the movie page didn't have a background image. I solved this issue in the carousel on the homepage by displaying images under 'Creative Commons-Licences'.
+
+This was my first time using an API, which initially presented challenges. However I learned alot by watching tutorial videos and reading helpful articles, as well as using ChatGPT as a helpful tool for debugging.
 
 ### Buildt With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
