@@ -2,15 +2,33 @@
 
 ## Table of contents:
 * [Portfolio 1](#portfolio-1)
-* [Project 1 - Nordic Trekking](#project-1-nordic-trekking)
   - [Project in images](#project-in-images)
+  - [Installing](#installing)
   - [Description](#description)
   - [Challenges and learning points](#challenges-and-learning-points)
+  - [Buildt with](#buildt-with)
+  - [Licence](#licence)
+* [Project 1 - Nordic Trekking](#project-1-nordic-trekking)
+  - [Project in images](#project-in-images)
   - [Installing](#installing)
+  - [Description](#description)
+  - [Challenges and learning points](#challenges-and-learning-points)
   - [Buildt with](#buildt-with)
   - [Licence](#licence)
 * [Project 2 - Community Science Mueseum](#project-2-community-science-museum)
+  - [Project in images](#project-in-images)
+  - [Installing](#installing)
+  - [Description](#description)
+  - [Challenges and learning points](#challenges-and-learning-points)
+  - [Buildt with](#buildt-with)
+  - [Licence](#licence)
 * [Project 3 - Square Eyes](#project-3-square-eyes)
+  - [Project in images](#project-in-images)
+  - [Installing](#installing)
+  - [Description](#description)
+  - [Challenges and learning points](#challenges-and-learning-points)
+  - [Buildt with](#buildt-with)
+  - [Licence](#licence)
   
 
 ## Portfolio 1
@@ -18,20 +36,34 @@
 ### Project in images
 *image*
 
+### Installing
+Portfolio 1 is deployed on Vercel: [Open the project by clicking here.]([https://semester-project-2023.vercel.app/](https://ingrid-ornum-portfolio-1.vercel.app/))
+
 ### Description
+My portfolio presents three of my school projects that I did in my first year as a front-end student at Noroff. The portfolio page has some functions, such as dark/light mode, image carousels and some animations. These three are presented in detail below.
+
 #### What was the assignment?
+The "Portfolio 1" assignment focuses on documenting and showcasing three key projects from the first year of your course to demonstrate your development and documentation skills for potential employers.
 
 #### How was the process?
+
+
 #### Tools and technology
-
-
+* Figma: For designing wireframes and high-fidelity assets.
+* Sourcetree: Git version control was managed using Sourcetree.
+* FontAwesome: For incorporating icons into the interface.
+* Google Fonts: For typography and enhancing the visual appeal.
+* ChatGPT: Used for debugging and assistance during development.
+* Notion: I used Notion, a web application for taking notes.
+  
 #### Challenges and learning points
-
-
-### Installing
+I had some trouble deciding on the design.
 
 ### Buildt With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+### Licence
+This project is licensed under the MIT License.
 
 -------------------------------------------
 
@@ -80,7 +112,7 @@ This project is licensed under the MIT License.
 *image*
 
 ### Installing
-The project is deployed on Vercel: [Open the project by clicking here.](https://semester-project-2023.vercel.app/) <br/>
+The project is deployed on Vercel: [Open the project by clicking here.](https://semester-project-2023.vercel.app/)
 
 ### Description
 This webpage serves as the online presence for the fictional "Community Science Museum". The project aims to engage visitors by promoting upcoming events and providing previews of current exhibitions. Users can find essential information such as the museum's location, opening hours, contact details, and admission fees. The website features playful colours designed to intrigue the target audience - children (7-15 yrs).
@@ -121,7 +153,7 @@ This project is licensed under the MIT License.
 *image*
 
 ### Installing
-My project is deployed on Vercel: [Click here to go to the project](https://js-ca-spring-ingrid-ornum.vercel.app/) <br/>
+My project is deployed on Vercel: [Click here to go to the project](https://js-ca-spring-ingrid-ornum.vercel.app/)
 
 ### Description
 Square Eyes is a fictional movie streaming website designed to engage users in exploring and purchasing movies. This API-driven application allows users to add movies to their watchlist or cart, view detailed movie information, and proceed to checkout where the total cost and selected movies are displayed. The available movies are sourced from an API provided by Noroff.
