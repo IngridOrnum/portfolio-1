@@ -1,6 +1,8 @@
 # Portfolio 1
 
-description
+My portfolio page showcases three school projects from my first year as a front-end development student. The projects, including my portfolio page, are presented in detail below with screenshots, descriptions and live sites. The projects are: a Nordic Trekking blog interface, a Community Science Museum webpage, and Square Eyes, a movie streaming service. 
+
+This portfolio not only demonstrates my ability to manage and present digital content in a presentable way, but also reflects my proficiency in using modern web technologies and design tools like Figma, SourceTree and FontAwesome.
 
 ## Table of contents:
 * [Portfolio 1](#portfolio-1)
@@ -51,6 +53,7 @@ The goal of the Portfolio 1 assignment was to focus on documenting and showcasin
 I started looking at my previous projects that I finished throughout the year. I ended up with the projects I did during Semester Project 1, JavaScript 1 and Project Exam 1. Then I did some planning of the layout and design in Figma, found inspiration of other porfolio pages and looked through the projects I chose for improvements and features to add. I decided I wanted my portfolio to have some interesting features, so I added dark/light mode and an animated grainy background to the hero. I also knew I wanted to display more content of each project than just one screenshot, so I made a carousel. I also ended up doing some changes on elements and added some new features to all of the projects. I also made sure to updatereadme's to each project.
 
 #### Tools and technology
+* Webstorm: Code editor.
 * Figma: For designing wireframes and high-fidelity assets.
 * Sourcetree: Git version control was managed using Sourcetree.
 * FontAwesome: For incorporating icons into the interface.
@@ -87,6 +90,7 @@ This project was a project exam while studying on Noroff School of Technology an
 The assignment for the FED1 Project Exam 1 was to design, build, and test a responsive web application that serves as a front-end user interface for an existing API blogging application. This involved planning the project, designing a user interface, and using HTML, CSS, and JavaScript to implement mandatory features. Some of these were a blog feed page with an interactive carousel, a public blog post page and admin pages for blog management. Frameworks like CSS or JS Frameworks were not allowed.
 
 #### Tools and technology
+* Webstorm: Code editor.
 * Figma: For designing wireframes and high-fidelity assets.
 * Sourcetree: Git version control was managed using Sourcetree.
 * FontAwesome: For incorporating icons into the interface.
@@ -125,6 +129,7 @@ This project was the first semester project while studying front-end development
 The assignment for Semester Project 1 involves creating a website for the Community Science Museum designed to attract middle school pupils and their families. The purpose of the project was to develop a responsive, informative and appealing website for the Community Science Museum with the target group in mind.
 
 #### Tools and technology
+* Webstorm: Code editor.
 * Figma: For designing wireframes and high-fidelity assets.
 * Sourcetree: Git version control was managed using Sourcetree.
 * Webp Converter: I downloaded and used this tool to compress images to under 200kb, from jpeg to webp.
@@ -168,6 +173,7 @@ The assignment of the JS1 Course Assignment was for the students to apply their 
 The website had to allow users to view products, filter and add items to a basket. There also and check out. The project should utilize one of three given API endpoints for product data.
 
 #### Tools and technology
+* Webstorm: Code editor.
 * Figma: For designing wireframes and high-fidelity assets.
 * Sourcetree: Git version control was managed using Sourcetree.
 * FontAwesome: For incorporating icons into the interface.
