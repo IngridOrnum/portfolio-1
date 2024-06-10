@@ -10,7 +10,7 @@ My portfolio page showcases three school projects from my first year as a front-
   - [Challenges and learning points](#challenges-and-learning-points)
   - [Buildt with](#buildt-with)
   - [Licence](#licence)
-* [Project 1 - Nordic Trekking](#project-1-nordic-trekking)
+* [Project 1 - Nordic Trekking](#project-1---nordic-trekking)
   - [Project in images](#project-in-images)
   - [Installing](#installing)
   - [Description](#description)
