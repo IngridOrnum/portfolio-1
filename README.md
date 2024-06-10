@@ -163,7 +163,7 @@ This project is licensed under the MIT License.
 ## Project 3 - Square Eyes
 
 ### Project in images
-*image*
+![square-eyes](https://github.com/IngridOrnum/portfolio-1/assets/144798807/ff0eddd5-6be5-4045-b0a1-b21545ed6573)
 
 ### Installing
 My project is deployed on Vercel: [Click here to go to the project](https://js-ca-spring-ingrid-ornum.vercel.app/)
