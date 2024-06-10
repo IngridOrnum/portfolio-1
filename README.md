@@ -1,5 +1,7 @@
 # Portfolio 1
 
+description
+
 ## Table of contents:
 * [Portfolio 1](#portfolio-1)
   - [Project in images](#project-in-images)
@@ -37,16 +39,16 @@
 *image*
 
 ### Installing
-Portfolio 1 is deployed on Vercel: [Open the project by clicking here.]([https://semester-project-2023.vercel.app/](https://ingrid-ornum-portfolio-1.vercel.app/))
+Portfolio 1 is deployed on Netlify: [Open the project by clicking here.](https://ingrid-ornum-portfolio.netlify.app/)
 
 ### Description
 My portfolio presents three of my school projects that I did in my first year as a front-end student at Noroff. The portfolio page has some functions, such as dark/light mode, image carousels and some animations. These three are presented in detail below.
 
 #### What was the assignment?
-The "Portfolio 1" assignment focuses on documenting and showcasing three key projects from the first year of your course to demonstrate your development and documentation skills for potential employers.
+The goal of the Portfolio 1 assignment was to focus on documenting and showcasing three key projects from the first year of my course to demonstrate my development and documentation skills for potential employers.
 
 #### How was the process?
-
+I started looking at my previous projects that I finished throughout the year. I ended up with the projects I did during Semester Project 1, JavaScript 1 and Project Exam 1. Then I did some planning of the layout and design in Figma, found inspiration of other porfolio pages and looked through the projects I chose for improvements and features to add. I decided I wanted my portfolio to have some interesting features, so I added dark/light mode and an animated grainy background to the hero. I also knew I wanted to display more content of each project than just one screenshot, so I made a carousel. I also ended up doing some changes on elements and added some new features to all of the projects. I also made sure to updatereadme's to each project.
 
 #### Tools and technology
 * Figma: For designing wireframes and high-fidelity assets.
