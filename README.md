@@ -80,7 +80,8 @@ I want to give credit to this webpage regarding grainy texture animation that I 
 
 ### Project in images
 
-User Pages: ![nordic-trekking-user](https://github.com/IngridOrnum/portfolio-1/assets/144798807/89702d63-cd58-4cd4-b69e-f991ce6a531f)
+![nordic-trekking-user](https://github.com/IngridOrnum/portfolio-1/assets/144798807/89702d63-cd58-4cd4-b69e-f991ce6a531f)
+![nordic-trekking-admin](https://github.com/IngridOrnum/portfolio-1/assets/144798807/aa25ecd7-a12c-477b-9556-a429cd5b5221)
 
 ### Installing
 * [User pages (deployed on Vercel)](https://project-exam-1-blog.vercel.app/user/index.html)
