@@ -23,7 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
+    padding: 40px 260px;
     height: 100vh;
     width: 100vw;
 }
@@ -222,4 +222,251 @@
 .arrow-prev:hover, .arrow-next:hover {
     background-color: #292929;
     color: #FBF6F6;
+}
+
+@media (max-width: 1930px) {
+    .background-card {
+        padding: 40px 160px;
+    }
+}
+
+@media (max-width: 1760px) {
+    .background-card {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 1460px) {
+    .background-card {
+        padding: 40px;
+    }
+    .project-title {
+        font-size: 36px;
+    }
+
+    .project-description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1240px) {
+
+    .wrapper-project-title-and-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-description {
+        width: 500px;
+        margin: 0;
+    }
+
+    .wrapper-tech-items {
+        margin: 18px 0;
+    }
+
+    .tech-item {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    .background-card {
+        flex-direction: column;
+    }
+
+    .content-project-display-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 82px;
+    }
+
+    .btn-visit-site, .btn-github-link {
+        padding: 8px 14px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 770px) {
+    .gallery {
+        margin-bottom: 42px;
+    }
+
+    .gallery-container {
+        height: 300px;
+    }
+
+    .gallery-item-3 {
+        height: 300px;
+        width: 480px;
+    }
+
+    .gallery-item-2, .gallery-item-4 {
+        height: 260px;
+        width: 416px;
+    }
+
+    .gallery-item {
+        height: 222px;
+        width: 355px;
+    }
+
+    .gallery-item-1 {
+        transform: translateX(-34%) scale(0.8);
+    }
+
+    .gallery-item-2 {
+        transform: translateX(-40%) scale(0.9);
+    }
+
+    .gallery-item-4 {
+        transform: translateX(-60%) scale(0.9);
+    }
+
+    .gallery-item-5 {
+        transform: translateX(-66%) scale(0.8);
+    }
+}
+
+@media (max-width: 680px) {
+    .gallery-item-3 {
+        height: 277px;
+        width: 442px;
+    }
+
+    .gallery-item-2, .gallery-item-4 {
+        height: 253px;
+        width: 404px;
+    }
+
+    .gallery-item {
+        height: 222px;
+        width: 355px;
+    }
+}
+
+@media (max-width: 560px) {
+    .project-title {
+        font-size: 26px;
+    }
+
+    .project-description {
+        font-size: 14px;
+        width: 440px;
+        margin: 0 18px;
+    }
+
+    .wrapper-tech-items {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 18px 18px;
+    }
+
+    .tech-item {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+
+    .gallery-item {
+        height: 132px;
+        width: 210px;
+    }
+
+    .gallery-item-2, .gallery-item-4 {
+        height: 155px;
+        width: 248px;
+    }
+
+    .gallery-item-1 {
+        transform: translateX(-14%) scale(0.8);
+    }
+
+    .gallery-item-2 {
+        transform: translateX(-30%) scale(0.9);
+    }
+
+    .gallery-item-3 {
+        height: 170px;
+        width: 272px;
+    }
+
+    .gallery-item-4 {
+        transform: translateX(-70%) scale(0.9);
+    }
+
+    .gallery-item-5 {
+        transform: translateX(-86%) scale(0.8);
+    }
+
+    .gallery-container {
+        height: 210px;
+        margin-top: 22px;
+    }
+
+}
+
+@media (max-width: 462px) {
+
+    .content-project-display-left {
+        margin-top: 56px;
+    }
+
+    .background-card {
+        padding: 18px;
+    }
+
+    .content-project-display-left {
+        margin-top: 62px;
+    }
+
+    .project-title {
+        font-size: 22px;
+    }
+
+    .project-title-2 {
+        text-align: center;
+        width: 340px;
+    }
+
+    .project-description {
+        font-size: 12px;
+        margin: 0 22px;
+        width: 320px;
+    }
+
+    .tech-item {
+        width: auto;
+    }
+
+    .gallery-container {
+        margin-top: 0;
+    }
+
+    .btn-github-link, .btn-visit-site {
+        padding: 4px 14px;
+    }
+
+}
+
+
+@media (max-width: 380px) {
+
+    .gallery-item-1 {
+        transform: translateX(-2%) scale(0.8);
+    }
+
+    .gallery-item-2 {
+        transform: translateX(-26%) scale(0.9);
+    }
+
+    .gallery-item-4 {
+        transform: translateX(-74%) scale(0.9);
+    }
+
+    .gallery-item-5 {
+        transform: translateX(-98%) scale(0.8);
+    }
+
 }
