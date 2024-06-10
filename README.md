@@ -68,6 +68,9 @@ I had some trouble deciding on the design.
 ### Licence
 This project is licensed under the MIT License.
 
+### Acknowledgements
+I want to give credit to this webpage regarding grainy texture animation that I found to be an inspiration for my portfolio page: [WEB BAE](https://www.webbae.net/hub/animated-grain-texture).
+
 -------------------------------------------
 
 ## Project 1 - Nordic Trekking
