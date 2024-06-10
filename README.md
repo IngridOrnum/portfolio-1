@@ -37,7 +37,9 @@ My portfolio page showcases three school projects from my first year as a front-
 ## Portfolio 1
 
 ### Project in images
-*image*
+
+![Uploading portfolio-page.gif…]()
+
 
 ### Installing
 Portfolio 1 is deployed on Netlify: [Open the project by clicking here.](https://ingrid-ornum-portfolio.netlify.app/)
