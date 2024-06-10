@@ -8,7 +8,7 @@ My portfolio page showcases three school projects from my first year as a front-
   - [Installing](#installing)
   - [Description](#description)
   - [Challenges and learning points](#challenges-and-learning-points)
-  - [Buildt with](#buildt-with)
+  - [Built with](#built-with)
   - [Licence](#licence)
   - [Acknowledgements](#acknowledgements)
 * [Project 1 - Nordic Trekking](#project-1---nordic-trekking)
@@ -16,21 +16,21 @@ My portfolio page showcases three school projects from my first year as a front-
   - [Installing](#installing)
   - [Description](#description)
   - [Challenges and learning points](#challenges-and-learning-points)
-  - [Buildt with](#buildt-with)
+  - [Built with](#built-with)
   - [Licence](#licence)
-* [Project 2 - Community Science Mueseum](#project-2---community-science-museum)
+* [Project 2 - Community Science Museum](#project-2---community-science-museum)
   - [Project in images](#project-in-images)
   - [Installing](#installing)
   - [Description](#description)
   - [Challenges and learning points](#challenges-and-learning-points)
-  - [Buildt with](#buildt-with)
+  - [Built with](#built-with)
   - [Licence](#licence)
 * [Project 3 - Square Eyes](#project-3---square-eyes)
   - [Project in images](#project-in-images)
   - [Installing](#installing)
   - [Description](#description)
   - [Challenges and learning points](#challenges-and-learning-points)
-  - [Buildt with](#buildt-with)
+  - [Built with](#built-with)
   - [Licence](#licence)
   
 
@@ -51,7 +51,7 @@ My portfolio presents three of my school projects that I did in my first year as
 The goal of the Portfolio 1 assignment was to focus on documenting and showcasing three key projects from the first year of my course to demonstrate my development and documentation skills for potential employers.
 
 #### How was the process?
-I started looking at my previous projects that I finished throughout the year. I ended up with the projects I did during Semester Project 1, JavaScript 1 and Project Exam 1. Then I did some planning of the layout and design in Figma, found inspiration of other porfolio pages and looked through the projects I chose for improvements and features to add. I decided I wanted my portfolio to have some interesting features, so I added dark/light mode and an animated grainy background to the hero. I also knew I wanted to display more content of each project than just one screenshot, so I made a carousel. I also ended up doing some changes on elements and added some new features to all of the projects. I also made sure to updatereadme's to each project.
+I started looking at my previous projects that I finished throughout the year. I ended up with the projects I did during Semester Project 1, JavaScript 1 and Project Exam 1. Then I did some planning of the layout and design in Figma, found inspiration of other porfolio pages and looked through the projects I chose for improvements and features to add. I decided I wanted my portfolio to have some interesting features, so I added dark/light mode and an animated grainy background to the hero. I also knew I wanted to display more content of each project than just one screenshot, so I made a carousel. I also ended up doing some changes on elements and added some new features to all of the projects. I also made sure to update readme's to each project.
 
 #### Tools and technology
 * Webstorm: Code editor.
@@ -65,7 +65,7 @@ I started looking at my previous projects that I finished throughout the year. I
 #### Challenges and learning points
 I had some trouble deciding on the design.
 
-### Buildt With
+### Built With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ### Licence
@@ -110,7 +110,7 @@ The assignment for the FED1 Project Exam 1 was to design, build, and test a resp
 3. Design Adjustments: I had to adjust my initial design to align better with the API's capabilities, simplifying some aspects to streamline development.
 4. New Design Techniques: Implementing a parallax effect for the background image on the user landing page was a new experience, and I learned a lot from incorporating this effect.
 
-### Buildt With
+### Built With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 
 ### Licence
@@ -146,13 +146,13 @@ The assignment for Semester Project 1 involves creating a website for the Commun
 * Notion: I used Notion, a web application for taking notes.
 
 #### Challenges and learning points
-I had some difficulty deciding on design. I had many ideas regarding the design, but was split between a minimalistic og a more maximalistic design. I ended up with a design with more colours and childlike design with the target audience in mind, which were children.
+I had some difficulty deciding on design. I had many ideas regarding the design, but was split between a minimalistic or a more maximalistic design. I ended up with a design with more colours and childlike design with the target audience in mind, which were children.
 
 I also had some trouble with the work process related to branches in SourceTree, because I by mistake merged some of the branches before being completely done with the issue. This resulted in what can look like a messy workflow. As a result of this I learned that I must make even more detailed issues on the GitHub board for each page.
 
 This project was the first time I tried JavaScript. It was not mandatory to use JS in this assignment, however I wanted to challenge myself and test it on a few elements on the page.
 
-### Buildt With
+### Built With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ### Licence
@@ -189,11 +189,11 @@ The website had to allow users to view products, filter and add items to a baske
 * Notion: I used Notion, a web application for taking notes.
 
 #### Challenges and learning points
-I found it challenging handeling the images so that they were visuably pleasing when seen in larger formats. I could've changed the design, so that the movie page didn't have a background image. I solved this issue in the carousel on the homepage by displaying images under 'Creative Commons-Licences'.
+I found it challenging handling the images so that they were visually pleasing when seen in larger formats. I could've changed the design, so that the movie page didn't have a background image. I solved this issue in the carousel on the homepage by displaying images under 'Creative Commons Licences'.
 
 This was my first time using an API, which initially presented challenges. However I learned alot by watching tutorial videos and reading helpful articles, as well as using ChatGPT as a helpful tool for debugging.
 
-### Buildt With
+### Built With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ### Licence
