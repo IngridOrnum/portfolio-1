@@ -38,7 +38,7 @@ My portfolio page showcases three school projects from my first year as a front-
 
 ### Project in images
 
-![portfolio-page](https://github.com/IngridOrnum/portfolio-1/assets/144798807/cfa35616-4d77-468d-ba3a-31ba597ad3d1)
+![portfolio](https://github.com/IngridOrnum/portfolio-1/assets/144798807/7a666a4d-38b2-42e2-bc3e-1b86bf2db1b8)
 
 
 ### Installing
