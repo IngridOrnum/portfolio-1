@@ -202,7 +202,7 @@ input:checked + .slider .fa-moon {
     margin-top: 12px;
 }
 
-.hero-details span {
+.hero-small-text {
     font-size: 24px;
 }
 
@@ -222,4 +222,70 @@ input:checked + .slider .fa-moon {
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 12px); }
     to   { transform: translate(0, -0px); }
+}
+
+@media (max-width: 600px) {
+    .hero-heading {
+        font-size: 30px;
+    }
+
+    .hero-small-text {
+        font-size: 20px;
+    }
+
+    .line-divider {
+        height: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-heading {
+        font-size: 24px;
+    }
+
+    .hero-small-text {
+        font-size: 16px;
+    }
+
+    .line-divider {
+        height: 14px;
+    }
+
+    .sm-arrow-text-hero {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo-toggle-btn {
+        margin: 12px 18px;
+    }
+}
+
+@media (max-width: 380px) {
+    .logo-and-location {
+        gap: 8px;
+        font-size: 14px;
+    }
+
+    .location {
+        font-size: 12px;
+    }
+
+    .hero-heading {
+        font-size: 20px;
+    }
+
+    .hero-small-text {
+        font-size: 14px;
+    }
+
+    .line-divider {
+        height: 12px;
+    }
+
+    .sm-arrow-text-hero {
+        font-size: 12px;
+    }
+
 }
