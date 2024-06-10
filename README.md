@@ -121,7 +121,7 @@ This project is licensed under the MIT License.
 ## Project 2 - Community Science Museum
 
 ### Project in images
-![csm (2)](https://github.com/IngridOrnum/portfolio-1/assets/144798807/06578447-452e-4009-84e0-26ff9c4548e0)
+![csm-gif (1)](https://github.com/IngridOrnum/portfolio-1/assets/144798807/e8e25f30-f6eb-4184-acb3-da1cc66fdf25)
 
 ### Installing
 The project is deployed on Vercel: [Open the project by clicking here.](https://semester-project-2023.vercel.app/)
