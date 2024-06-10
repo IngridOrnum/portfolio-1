@@ -2,8 +2,6 @@
 
 My portfolio page showcases three school projects from my first year as a front-end development student. The projects, including my portfolio page, are presented in detail below with screenshots, descriptions and live sites. The projects are: a Nordic Trekking blog interface, a Community Science Museum webpage, and Square Eyes, a movie streaming service. 
 
-This portfolio not only demonstrates my ability to manage and present digital content in a presentable way, but also reflects my proficiency in using modern web technologies and design tools like Figma, SourceTree and FontAwesome.
-
 ## Table of contents:
 * [Portfolio 1](#portfolio-1)
   - [Project in images](#project-in-images)
