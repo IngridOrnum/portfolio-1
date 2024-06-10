@@ -98,8 +98,8 @@
 
 .btn-visit-site, .btn-github-link {
     border-radius: 4px;
-    padding: 12px 24px;
-    font-size: 22px;
+    padding: 12px 12px;
+    font-size: 20px;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
@@ -246,6 +246,10 @@
 
     .project-description {
         font-size: 14px;
+    }
+
+    .btn-visit-site, .btn-github-link {
+        font-size: 16px;
     }
 }
 
@@ -405,6 +409,10 @@
         margin-top: 22px;
     }
 
+    .btn-visit-site, .btn-github-link {
+        font-size: 14px;
+    }
+
 }
 
 @media (max-width: 462px) {
@@ -445,7 +453,16 @@
     }
 
     .btn-github-link, .btn-visit-site {
-        padding: 4px 14px;
+        /*padding: 4px;*/
+        width: 120px;
+    }
+
+    .btn-visit-site {
+        width: 110px;
+    }
+
+    .btn-github-link-nt, .btn-visit-site-nt {
+        width: 100px;
     }
 
 }
