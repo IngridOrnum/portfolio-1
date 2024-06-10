@@ -1,4 +1,4 @@
-# Portfolio 1
+# Ingrid Ornum - Portfolio
 
 My portfolio page showcases three school projects from my first year as a front-end development student. The projects, including my portfolio page, are presented in detail below with screenshots, descriptions and live sites. The projects are: a Nordic Trekking blog interface, a Community Science Museum webpage, and Square Eyes, a movie streaming service. 
 
