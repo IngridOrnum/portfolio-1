@@ -1,5 +1,20 @@
 # Portfolio 1
 
+## Table of contents:
+* [Portfolio 1](#portfolio-1)
+* [Project 1 - Nordic Trekking](#project-1-nordic-trekking)
+  - [Project in images](#project-in-images)
+  - [Description](#description)
+  - [Challenges and learning points](#challenges-and-learning-points)
+  - [Installing](#installing)
+  - [Buildt with](#buildt-with)
+  - [Licence](#licence)
+* [Project 2 - Community Science Mueseum](#project-2-community-science-museum)
+* [Project 3 - Square Eyes](#project-3-square-eyes)
+  
+
+## Portfolio 1
+
 ### Project in images
 *image*
 
@@ -137,5 +152,3 @@ This was my first time using an API, which initially presented challenges. Howev
 
 ### Licence
 This project is licensed under the MIT License.
-
-### Acknowledgements
