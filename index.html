@@ -23,13 +23,20 @@
                             <span class="poppins ex-light location">Oslo, Norway</span>
                         </div>
                     </div>
-                    <label class="day-night-switch">
-                        <input checked type="checkbox">
-                        <span class="slider">
+                    <div class="nav-wrapper">
+                        <nav>
+                            <span class="nav-item-wrapper"><a class="nav-item" href="#projects">Projects</a></span>
+                            <span class="nav-item-wrapper"><a class="nav-item" href="#about">About</a></span>
+                            <span class="nav-item-wrapper"><a class="nav-item" href="#contact">Contact</a></span>
+                        </nav>
+                        <label class="day-night-switch">
+                            <input checked type="checkbox">
+                            <span class="slider">
                                     <i class="fa-solid fa-sun"></i>
                                     <i class="fa-solid fa-moon"></i>
                                 </span>
-                    </label>
+                        </label>
+                    </div>
                 </div>
             </div>
             <div class="inner">
@@ -47,10 +54,11 @@
                     </section>
                 </div>
             </div>
-            <div class="inner project-1 background-card">
+            <div class="inner project-1 background-card" id="projects">
                 <div class="content-project-display-left">
                     <div class="hidden wrapper-project-title-and-description">
                         <div class="project-title project-title-1 poppins semi-bold">NORDIC TREKKING</div>
+                        <p class="date-project">April 2024</p>
                         <p class="project-description project-description-1 poppins ex-light">
                             The Nordic Trekking Blog Interface is a front-end user interface for an API-driven blogging
                             application focused on hiking and outdoor activities in Norway. The application allows users
@@ -67,13 +75,18 @@
                     </div>
                     <div class="wrapper-project-buttons">
                         <form action="https://project-exam-1-blog.vercel.app/user/index.html">
-                            <button class="hidden btn-visit-site btn-visit-site-nt poppins light" formtarget="_blank">Visit Site (user)</button>
+                            <button class="hidden btn-visit-site btn-visit-site-nt poppins light" formtarget="_blank">
+                                Visit Site (user)
+                            </button>
                         </form>
                         <form action="https://project-exam-blog.vercel.app/admin/account/login.html">
-                            <button class=" hidden btn-visit-site btn-visit-site-nt poppins light" formtarget="_blank">Visit Site (admin)</button>
+                            <button class=" hidden btn-visit-site btn-visit-site-nt poppins light" formtarget="_blank">
+                                Visit Site (admin)
+                            </button>
                         </form>
                         <form action="https://github.com/IngridOrnum/project-exam-1-blog">
-                            <button class=" hidden btn-github-link btn-github-link-nt poppins light" formtarget="_blank">GitHub Repo
+                            <button class=" hidden btn-github-link btn-github-link-nt poppins light"
+                                    formtarget="_blank">GitHub Repo
                             </button>
                         </form>
                     </div>
@@ -88,7 +101,8 @@
                              src="assets/nordic-trekking/nordic-trekking-desktop.jpg">
                         <img alt="Screenshot of single blog page on Nordic Trekking" class="gallery-item gallery-item-4"
                              src="assets/nordic-trekking/nt-single-post.png">
-                        <img alt="Screenshot of blog archive page on Nordic Trekking" class="gallery-item gallery-item-5"
+                        <img alt="Screenshot of blog archive page on Nordic Trekking"
+                             class="gallery-item gallery-item-5"
                              src="assets/nordic-trekking/nt-blog-archive.png">
                     </div>
                     <div class="gallery-pagination">
@@ -106,27 +120,30 @@
             <div class="inner project-2 background-card">
                 <div class="content-project-display-left">
                     <div class="hidden wrapper-project-title-and-description">
-                        <div class="project-title project-title-2 poppins semi-bold">COMMUNITY SCIENCE MUSEUM</div>
+                        <div class="project-title project-title-2 poppins semi-bold">BID BOUTIQUE</div>
+                        <p class="date-project">December 2024</p>
                         <p class="project-description project-description-2 poppins ex-light">
-                            This webpage serves as the online presence for the fictional "Community Science Museum". The
-                            project aims to engage visitors by promoting upcoming events and providing previews of
-                            current exhibitions. Users can find essential information such as the museum's location,
-                            opening hours, contact details, and admission fees. The website features playful colours
-                            designed to intrigue the target audience - children.
+                            Bid Boutique is a dynamic auction website where users can list items for auction and place
+                            bids on items listed by others. This front-end interface connects with an API, where the
+                            user can view details about listings, place bids on listings, create and edit listings and
+                            edit profile. The platform starts
+                            every new user with 1000 credits, enabling them to participate actively from day one. This
+                            project was developed as part of our coursework at Noroff School of Technology and Digital
+                            Media.
                         </p>
                     </div>
                     <div class="wrapper-tech-items">
                         <div class="tech-item tech-item-1 poppins light hidden">HTML</div>
-                        <div class="tech-item tech-item-2 poppins light hidden">CSS</div>
+                        <div class="tech-item tech-item-2 poppins light hidden">Tailwind</div>
                         <div class="tech-item tech-item-3 poppins light hidden">JavaScript</div>
                         <div class="tech-item tech-item-4 poppins light hidden">Figma</div>
                     </div>
                     <div class="wrapper-project-buttons">
-                        <form action="https://semester-project-2023.vercel.app/">
+                        <form action="https://bid-boutique.netlify.app/">
                             <button class=" hidden btn-visit-site poppins light" formtarget="_blank">Visit Site
                             </button>
                         </form>
-                        <form action="https://github.com/IngridOrnum/semester-project-2023">
+                        <form action="https://github.com/IngridOrnum/semester-project-2-ingridornum/">
                             <button class=" hidden btn-github-link poppins light" formtarget="_blank">GitHub Repo
                             </button>
                         </form>
@@ -134,16 +151,21 @@
                 </div>
                 <div class="gallery" data-carousel="2">
                     <div class="gallery-container">
-                        <img alt="Screenshot of about page on Community Science Museum" class="gallery-item gallery-item-1"
-                             src="assets/csm/csm-about.png">
-                        <img alt="Screenshot of exhibition page on Community Science Museum" class="gallery-item gallery-item-2"
-                             src="assets/csm/csm-exhibitions.png">
-                        <img alt="Screenshot of homepage on Community Science Museum" class="gallery-item gallery-item-3"
-                             src="assets/csm/csm-homepage.png">
-                        <img alt="Screenshot of events page on Community Science Museum" class="gallery-item gallery-item-4"
-                             src="assets/csm/csm-events.png">
-                        <img alt="Screenshot of plan your visit page on Community Science Museum" class="gallery-item gallery-item-5"
-                             src="assets/csm/csm-plan-visit.png">
+                        <img alt="Screenshot of profile page on Bid Boutique"
+                             class="gallery-item gallery-item-1"
+                             src="assets/bid-boutique/profile.png">
+                        <img alt="Screenshot of create new listing page Bid Boutique"
+                             class="gallery-item gallery-item-2"
+                             src="assets/bid-boutique/create-listing.png">
+                        <img alt="Screenshot of homepage on Bid Boutique"
+                             class="gallery-item gallery-item-3"
+                             src="assets/bid-boutique/homepage.png">
+                        <img alt="Screenshot of single listing page Bid Boutique"
+                             class="gallery-item gallery-item-4"
+                             src="assets/bid-boutique/login-page.png">
+                        <img alt="Screenshot of search results on homepage on Bid Boutique"
+                             class="gallery-item gallery-item-5"
+                             src="assets/bid-boutique/search-results.png">
                     </div>
                     <div class="gallery-pagination">
                         <div class="pagination-arrows">
@@ -161,6 +183,7 @@
                 <div class="content-project-display-left">
                     <div class="hidden wrapper-project-title-and-description">
                         <div class="project-title project-title-3 poppins semi-bold">SQUARE EYES</div>
+                        <p class="date-project">February 2024</p>
                         <p class="project-description project-description-3 poppins ex-light">
                             Square Eyes is a fictional movie streaming website designed to engage users in exploring and
                             purchasing movies. This API-driven application allows users to add movies to their watchlist
@@ -194,7 +217,8 @@
                              src="assets/square-eyes/square-eyes-checkout.png">
                         <img alt="Screenshot of homepage on Square Eyes" class="gallery-item gallery-item-3"
                              src="assets/square-eyes/square-eyes-homepage.png">
-                        <img alt="Screenshot of movie display on Square Eyes homepage" class="gallery-item gallery-item-4"
+                        <img alt="Screenshot of movie display on Square Eyes homepage"
+                             class="gallery-item gallery-item-4"
                              src="assets/square-eyes/square-eyes-homepage-movie-display.png">
                         <img alt="Screenshot of movie page on Square Eyes" class="gallery-item gallery-item-5"
                              src="assets/square-eyes/square-eyes-movie-page.png">
@@ -210,6 +234,43 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="inner project-4 background-card profile-bg" id="about">
+                <img alt="Profile Picture" class="profile-img" src="assets/about/profile-picture.jpeg">
+                <div class="profile-text-section">
+                <div class="profile-text">
+                    <h1 class="poppins about-title semi-bold about-text">Hey, there! I'm Ingrid.</h1>
+                    <p class="poppins ex-light about-text">I will complete my education in frontend development at Noroff in the spring of 2025 and hold a bachelor's degree in nursing.
+                    </p>
+                    <p class="poppins ex-light about-text">I bring a passion for creativity and a keen eye for detail to everything I do. I thrive in
+                        collaborative environments and am committed to continuous learning and professional growth.
+                    </p>
+                    <p class="poppins ex-light about-text">Feel free to explore my projects on GitHub and LinkedIn for a deeper insight into my professional
+                        journey.
+                    </p>
+                </div>
+                    <p><a class="poppins get-in-touch about-text" href="#contact">Get in touch ↓</a></p>
+                </div>
+            </div>
+            <div class="inner project-5 background-card profile-bg" id="contact">
+                <h1 class="title-contact poppins">Get in touch!</h1>
+                <div class="contact-wrapper">
+                    <div class="contact-item">
+                        <img class="icon-about" src="assets/icons/github-mark.png" alt="github">
+                        <span ><a class="contact-text" href="https://github.com/IngridOrnum">IngridOrnum</a></span>
+                    </div>
+                    <div class="line-divider-contact"></div>
+                    <div class="contact-item">
+                        <img class="icon-about" src="assets/icons/LI-In-Bug.png" alt="linkdin">
+                        <span><a class="contact-text" href="https://www.linkedin.com/in/ingrid-ornum/">Ingrid Ornum</a></span>
+                    </div>
+                    <div class="line-divider-contact"></div>
+                    <div class="contact-item">
+                        <img class="icon-about" src="assets/icons/mail.png" alt="mail">
+                        <span><a class="contact-text" href="mailto:ingrid.ornum@gmail.com">ingrid.ornum@gmail.com</a></span>
+                    </div>
+                </div>
+                <span class="poppins light copyright">&copy 2025 Ingrid Ornum</span>
             </div>
         </div>
     </div>

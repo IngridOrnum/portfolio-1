@@ -33,11 +33,16 @@
 }
 
 .project-2 {
-    background-color: #C6BEFF80;
+    background-color: #F6F6F6;
 }
 
 .project-3 {
     background-color: #5E2D2020;
+}
+
+.date-project {
+    font-family: Poppins, sans-serif;
+    color: #29292980;
 }
 
 .content-project-display-left {

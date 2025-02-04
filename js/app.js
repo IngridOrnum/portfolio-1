@@ -75,12 +75,22 @@ const lineDividerSm = document.querySelector('.line-divider-sm');
 const project1Bg = document.querySelector('.project-1');
 const project2Bg = document.querySelector('.project-2');
 const project3Bg = document.querySelector('.project-3');
+const contactPage = document.querySelector('.project-4');
+const aboutPage = document.querySelector('.project-5');
 const projectTitle1 = document.querySelector('.project-title-1');
 const projectTitle2 = document.querySelector('.project-title-2');
 const projectTitle3 = document.querySelector('.project-title-3');
+const contactTitle = document.querySelector('.title-contact');
+const aboutTitle = document.querySelector('.about-title');
 const projectDescription1 = document.querySelector('.project-description-1');
 const projectDescription2 = document.querySelector('.project-description-2');
 const projectDescription3 = document.querySelector('.project-description-3');
+const aboutText = document.querySelectorAll('.about-text');
+const navItem = document.querySelectorAll('.nav-item');
+const aboutBg = document.querySelectorAll('.profile-bg');
+const copyright = document.querySelector('.copyright');
+const contactWrapper = document.querySelector('.contact-wrapper');
+const dateProject = document.querySelectorAll('.date-project');
 
 let isNightMode = false;
 
@@ -101,8 +111,8 @@ bgSwitch.addEventListener('change', function () {
         logoAndLocation.style.color = '#FBF6F6';
         lineDivider.style.backgroundColor = '#b8acff';
         lineDividerSm.style.backgroundColor = '#FBF6F6';
-        project1Bg.style.backgroundColor = '#0c332a';
-        project2Bg.style.backgroundColor = '#0e0b26';
+        project1Bg.style.backgroundColor = '#355143';
+        project2Bg.style.backgroundColor = '#383838';
         project3Bg.style.backgroundColor = '#170805';
         projectTitle1.style.color = '#FBF6F6';
         projectTitle2.style.color = '#FBF6F6';
@@ -110,6 +120,24 @@ bgSwitch.addEventListener('change', function () {
         projectDescription1.style.color = '#FBF6F6';
         projectDescription2.style.color = '#FBF6F6';
         projectDescription3.style.color = '#FBF6F6';
+        contactPage.style.backgroundColor = '';
+        aboutPage.style.backgroundColor = '';
+        aboutTitle.style.color = '#FBF6F6';
+        contactTitle.style.color = '#FBF6F6';
+        copyright.style.color = '#c4c4c4';
+        contactWrapper.style.backgroundColor = '#DEB0B0';
+        dateProject.forEach(element => {
+            element.style.color = '#c4c4c4';
+        });
+        aboutText.forEach(element => {
+            element.style.color = '#FBF6F6';
+        });
+        navItem.forEach(element => {
+            element.style.color = '#FBF6F6';
+        });
+        aboutBg.forEach(element => {
+            element.style.backgroundColor = '#8d5a5a';
+        });
 
         isNightMode = true;
     } else {
@@ -128,6 +156,24 @@ bgSwitch.addEventListener('change', function () {
         projectDescription1.style.color = '';
         projectDescription2.style.color = '';
         projectDescription3.style.color = '';
+        contactPage.style.backgroundColor = '';
+        aboutPage.style.backgroundColor = '';
+        aboutTitle.style.color = '';
+        contactTitle.style.color = '';
+        copyright.style.color = '';
+        dateProject.style.color = '#c4c4c4';
+        navItem.forEach(element => {
+            element.style.color = '';
+        });
+        aboutText.forEach(element => {
+            element.style.color = '';
+        });
+        aboutBg.forEach(element => {
+            element.style.backgroundColor = '';
+        });
+        dateProject.forEach(element => {
+            element.style.color = '';
+        });
 
         isNightMode = false;
     }
