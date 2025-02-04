@@ -45,8 +45,26 @@ body, html {
     z-index: -10;
 }
 
+.profile-bg {
+    background-color: #DEB0B080;
+   }
+
+.profile-text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 615px;
+    gap: 22px;
+}
 .grain {
     pointer-events: none;
+}
+
+.nav-wrapper {
+    display: flex;
+    gap: 50px;
+    align-items: center;
 }
 
 .wrapper-logo-toggle-btn {
@@ -222,6 +240,109 @@ input:checked + .slider .fa-moon {
     from { transform: translate(0,  0px); }
     65%  { transform: translate(0, 12px); }
     to   { transform: translate(0, -0px); }
+}
+
+.profile-img {
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 230px;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.project-5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #DEB0B080;
+    margin-bottom: 100px;
+}
+
+.get-in-touch {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.icon-about {
+    width: 50px;
+    height: auto;
+}
+
+.title-contact {
+    margin-top: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+    font-family: Poppins, sans-serif;
+}
+
+.nav-item-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 300;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    background: beige;
+    transition: width .2s;
+}
+
+.nav-item:hover:after {
+    width: 100%;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.contact-text {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-family: Poppins, sans-serif;
+}
+
+.contact-text:hover {
+    color: #F6F6F6;
+}
+
+.line-divider-contact {
+    height: 1px;
+    width: auto;
+    background-color: #42424280;
+}
+
+.copyright {
+    color: #808080;
 }
 
 @media (max-width: 600px) {
