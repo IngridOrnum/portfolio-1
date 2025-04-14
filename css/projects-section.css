@@ -45,6 +45,10 @@
     color: #29292980;
 }
 
+.gallery-container-stayawhile img {
+    object-fit: contain;
+}
+
 .content-project-display-left {
     width: 578px;
 }
